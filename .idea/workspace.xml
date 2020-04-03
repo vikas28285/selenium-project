@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09f579be-6461-4e0e-8051-07230dbfd46c" name="Default Changelist" comment="" />
+    <list default="true" id="09f579be-6461-4e0e-8051-07230dbfd46c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/selenium-project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/automation/selenium/donationEntryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/automation/selenium/donationEntryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/automation/selenium/donationEntryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/automation/selenium/donationEntryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +21,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -29,16 +40,28 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="TestNG.donationEntryTest">
+  <component name="RunManager" selected="TestNG.&lt;default&gt;">
     <configuration name="/Users/vikassingh/VirtualBox VMs/selenium-project/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-automation" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
       <listeners />
       <method v="2">
@@ -82,6 +105,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.&lt;default&gt;" />
         <item itemvalue="TestNG.donationEntryTest" />
         <item itemvalue="TestNG.donationEntryTest.donation" />
         <item itemvalue="TestNG./Users/vikassingh/VirtualBox VMs/selenium-project/testng.xml" />
@@ -106,39 +130,39 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="314" y="99" key="#Project_Structure/0.23.1440.821@0.23.1440.821" timestamp="1585772878160" />
-    <state width="1398" height="212" key="GridCell.Tab.0.bottom" timestamp="1585854707209">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state width="1398" height="212" key="GridCell.Tab.0.bottom" timestamp="1585913942158">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state width="1398" height="212" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1585854707209" />
+    <state width="1398" height="212" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1585913787453" />
     <state width="1398" height="212" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1585837096416" />
-    <state width="1398" height="212" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1585835311505" />
+    <state width="1398" height="212" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1585913942158" />
     <state width="1398" height="212" key="GridCell.Tab.0.bottom/0.23.1440.824@0.23.1440.824" timestamp="1585826102193" />
     <state width="1398" height="212" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1585825865139" />
     <state width="1398" height="212" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1585825297645" />
-    <state width="1398" height="212" key="GridCell.Tab.0.center" timestamp="1585854707209">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state width="1398" height="212" key="GridCell.Tab.0.center" timestamp="1585913942157">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state width="1398" height="212" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1585854707209" />
+    <state width="1398" height="212" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1585913787452" />
     <state width="1398" height="212" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1585837096415" />
-    <state width="1398" height="212" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1585835311504" />
+    <state width="1398" height="212" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1585913942157" />
     <state width="1398" height="212" key="GridCell.Tab.0.center/0.23.1440.824@0.23.1440.824" timestamp="1585826102192" />
     <state width="1398" height="212" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1585825865138" />
     <state width="1398" height="212" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1585825297644" />
-    <state width="1398" height="212" key="GridCell.Tab.0.left" timestamp="1585854707209">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state width="1398" height="212" key="GridCell.Tab.0.left" timestamp="1585913942157">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state width="1398" height="212" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1585854707209" />
+    <state width="1398" height="212" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1585913787452" />
     <state width="1398" height="212" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1585837096415" />
-    <state width="1398" height="212" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1585835311504" />
+    <state width="1398" height="212" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1585913942157" />
     <state width="1398" height="212" key="GridCell.Tab.0.left/0.23.1440.824@0.23.1440.824" timestamp="1585826102192" />
     <state width="1398" height="212" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1585825865137" />
     <state width="1398" height="212" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1585825297643" />
-    <state width="1398" height="212" key="GridCell.Tab.0.right" timestamp="1585854707209">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state width="1398" height="212" key="GridCell.Tab.0.right" timestamp="1585913942158">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state width="1398" height="212" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1585854707209" />
+    <state width="1398" height="212" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1585913787453" />
     <state width="1398" height="212" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1585837096416" />
-    <state width="1398" height="212" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1585835311505" />
+    <state width="1398" height="212" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1585913942158" />
     <state width="1398" height="212" key="GridCell.Tab.0.right/0.23.1440.824@0.23.1440.824" timestamp="1585826102192" />
     <state width="1398" height="212" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1585825865138" />
     <state width="1398" height="212" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1585825297644" />
