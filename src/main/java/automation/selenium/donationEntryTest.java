@@ -13,19 +13,19 @@ public class donationEntryTest {
     @Test
     void donation() {
 
-        System.setProperty("webdriver.chrome.driver", "src/main/java/automation/selenium/chromedriver");
-        ChromeOptions chromeOptions = new ChromeOptions();
-        chromeOptions.addArguments("--headless");
-        WebDriver driver = new ChromeDriver(chromeOptions);
-        driver.navigate().to("http://34.93.213.58:8080/food-donation/");
+        //System.setProperty("webdriver.chrome.driver", "src/main/java/automation/selenium/chromedriver");
+        //ChromeOptions chromeOptions = new ChromeOptions();
+        //chromeOptions.addArguments("--headless");
+        //WebDriver driver = new ChromeDriver(chromeOptions);
+        //driver.navigate().to("http://34.93.213.58:8080/food-donation/");
 
         //WebDriver driver = new FirefoxDriver();
         //This is for chrome browser - local testing
-        //WebDriver driver = new ChromeDriver();
+        WebDriver driver = new ChromeDriver();
         //System.setProperty("webdriver.chrome.driver","/Users/vikassingh/Downloads/chromedriver");
 
         //Navigate to the Url of the Food Donation Application.
-        //driver.get("http://34.93.213.58:8080/food-donation/");
+        driver.get("http://34.93.213.58:8080/food-donation/");
 
         //Maximize the browser window
         //driver.manage().window().maximize();
