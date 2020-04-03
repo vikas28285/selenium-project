@@ -5,22 +5,30 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
 public class donationEntryTest {
     @Test
     void donation() {
-        WebDriver driver = new FirefoxDriver();
+
+        System.setProperty("webdriver.chrome.driver", "opt/chromedriver");
+        ChromeOptions chromeOptions = new ChromeOptions();
+        chromeOptions.addArguments("--headless");
+        WebDriver driver = new ChromeDriver(chromeOptions);
+        driver.navigate().to("http://34.93.213.58:8080/food-donation/");
+
+        //WebDriver driver = new FirefoxDriver();
         //This is for chrome browser - local testing
         //WebDriver driver = new ChromeDriver();
         //System.setProperty("webdriver.chrome.driver","/Users/vikassingh/Downloads/chromedriver");
 
         //Navigate to the Url of the Food Donation Application.
-        driver.get("http://34.93.213.58:8080/food-donation/");
+        //driver.get("http://34.93.213.58:8080/food-donation/");
 
         //Maximize the browser window
-        driver.manage().window().maximize();
+        //driver.manage().window().maximize();
 
         //Click on Donate Button
         WebElement element = driver.findElement(By.xpath(".//*[@id=\"section-counter\"]/div/div/div[2]/div/div/p[2]/a"));
