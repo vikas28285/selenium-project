@@ -13,7 +13,7 @@ public class donationEntryTest {
     @Test
     void donation() {
 
-        System.setProperty("webdriver.chrome.driver", "opt/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "src/main/java/automation/selenium/chromedriver");
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--headless");
         WebDriver driver = new ChromeDriver(chromeOptions);
