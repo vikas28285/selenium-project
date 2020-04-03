@@ -7,24 +7,31 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.Test;
 
 public class donationEntryTest {
     @Test
     void donation() {
 
+        //This is for chrome browser - local testing
+        //WebDriver driver = new ChromeDriver();
+        //System.setProperty("webdriver.chrome.driver","/Users/vikassingh/Downloads/chromedriver");
+        //driver.get("http://34.93.213.58:8080/food-donation/");
+
+        //This is for chrome browser - remote testing
         //System.setProperty("webdriver.chrome.driver", "src/main/java/automation/selenium/chromedriver");
         //ChromeOptions chromeOptions = new ChromeOptions();
         //chromeOptions.addArguments("--headless");
         //WebDriver driver = new ChromeDriver(chromeOptions);
         //driver.navigate().to("http://34.93.213.58:8080/food-donation/");
 
-        WebDriver driver = new FirefoxDriver();
-        //This is for chrome browser - local testing
-        //WebDriver driver = new ChromeDriver();
-        //System.setProperty("webdriver.chrome.driver","/Users/vikassingh/Downloads/chromedriver");
-
-        //Navigate to the Url of the Food Donation Application.
+        //This is for Firefox browser - remote testing
+        System.setProperty("webdriver.gecko.driver", "src/main/java/automation/selenium/chromedriver");
+        DesiredCapabilities capabilities = DesiredCapabilities.firefox();
+        capabilities.setCapability("marionette", true);
+        WebDriver driver = new FirefoxDriver(capabilities);
+        //WebDriver driver = new FirefoxDriver();
         driver.get("http://34.93.213.58:8080/food-donation/");
 
         //Maximize the browser window
