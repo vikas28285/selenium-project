@@ -27,7 +27,7 @@ public class donationEntryTest {
         //driver.navigate().to("http://34.93.213.58:8080/food-donation/");
 
         //This is for Firefox browser - remote testing
-        System.setProperty("webdriver.gecko.driver", "src/main/java/automation/selenium/chromedriver");
+        System.setProperty("webdriver.gecko.driver", "src/main/java/automation/selenium/geckodriver");
         DesiredCapabilities capabilities = DesiredCapabilities.firefox();
         capabilities.setCapability("marionette", true);
         WebDriver driver = new FirefoxDriver(capabilities);
