@@ -7,8 +7,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.firefox.FirefoxBinary;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.Test;
+
+import java.util.concurrent.TimeUnit;
 
 public class donationEntryTest {
     @Test
@@ -27,12 +31,21 @@ public class donationEntryTest {
         //driver.navigate().to("http://34.93.213.58:8080/food-donation/");
 
         //This is for Firefox browser - remote testing
+        FirefoxBinary firefoxBinary = new FirefoxBinary();
+        firefoxBinary.addCommandLineOptions("--headless");
         System.setProperty("webdriver.gecko.driver", "src/main/java/automation/selenium/geckodriver");
-        DesiredCapabilities capabilities = DesiredCapabilities.firefox();
-        capabilities.setCapability("marionette", true);
-        WebDriver driver = new FirefoxDriver(capabilities);
+        FirefoxOptions firefoxOptions = new FirefoxOptions();
+        firefoxOptions.setBinary(firefoxBinary);
+        FirefoxDriver driver = new FirefoxDriver(firefoxOptions);
+
+        //System.setProperty("webdriver.gecko.driver", "src/main/java/automation/selenium/geckodriver");
+        //DesiredCapabilities capabilities = DesiredCapabilities.firefox();
+        //capabilities.setCapability("marionette", true);
+        //WebDriver driver = new FirefoxDriver(capabilities);
         //WebDriver driver = new FirefoxDriver();
         driver.get("http://34.93.213.58:8080/food-donation/");
+        driver.manage().timeouts().implicitlyWait(4,
+                TimeUnit.SECONDS);
 
         //Maximize the browser window
         //driver.manage().window().maximize();
@@ -64,7 +77,7 @@ public class donationEntryTest {
         element5.click();
 
         //Close Fire fox
-        driver.close();
+        driver.quit();
     }
 
 }
