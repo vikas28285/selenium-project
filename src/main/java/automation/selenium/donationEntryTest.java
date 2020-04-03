@@ -19,9 +19,9 @@ public class donationEntryTest {
         //WebDriver driver = new ChromeDriver(chromeOptions);
         //driver.navigate().to("http://34.93.213.58:8080/food-donation/");
 
-        //WebDriver driver = new FirefoxDriver();
+        WebDriver driver = new FirefoxDriver();
         //This is for chrome browser - local testing
-        WebDriver driver = new ChromeDriver();
+        //WebDriver driver = new ChromeDriver();
         //System.setProperty("webdriver.chrome.driver","/Users/vikassingh/Downloads/chromedriver");
 
         //Navigate to the Url of the Food Donation Application.
