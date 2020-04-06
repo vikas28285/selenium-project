@@ -52,7 +52,7 @@ public class donationEntryTest {
 
         //Enter Date Time.
         WebElement element4 = driver.findElement(By.id("imageUrl"));
-        element4.sendKeys("04042020");
+        element4.sendKeys("07042020");
         element4.sendKeys(Keys.TAB);
         element4.sendKeys("1100AM");
 
